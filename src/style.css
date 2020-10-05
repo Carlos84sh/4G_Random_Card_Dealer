@@ -1,3 +1,65 @@
 body {
-    background-color: red;
+    background-color: green;
 }
+
+.card{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.heart::after{
+    content: "\2665";
+    font-size: 100px;
+    margin:0px;
+    margin-left: 220px;
+    transform: rotate(18deg)
+}
+
+.heart::before{
+    content: "\2665";
+    font-size: 100px;
+    margin:0px;
+}
+
+.diamond::after{
+    content: "\2666";
+    font-size: 100px
+}
+
+.diamond::before{
+    content: "\2666";
+    font-size: 100px;
+    margin:0px;
+}
+
+.shamrock::after{
+    content: "\2663";
+    font-size: 100px
+}
+
+.shamrock::before{
+    content: "\2663";
+    font-size: 100px
+}
+
+.spade::after{
+    content: "\2660";
+    font-size: 100px
+}
+
+.spade::before{
+    content: "\2660";
+    font-size: 100px
+}
+
+.number{
+    background:;
+    margin-top: 0px;
+    width: 100px;
+    height: 275px;
+    margin-left: 100px;
+    font-size: 200px;
+}
+
