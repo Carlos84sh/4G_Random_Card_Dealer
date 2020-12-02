@@ -2,64 +2,112 @@ body {
     background-color: green;
 }
 
-.card{
-    background-color: white;
-    width: 300px;
-    height: 500px;
-    border-radius: 10px;
+.card {
+    font-size: 125px;
+}
+.button {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+
+.wrapper {
+    width: 800px;
+    justify-content: center;
     margin: 0 auto;
 }
-.heart::after{
-    content: "\2665";
-    font-size: 100px;
-    margin:0px;
-    margin-left: 220px;
-    transform: rotate(18deg)
+.container {
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    position: relative;
+    border: 2px solid black;
+    margin: 0 auto;
 }
-
-.heart::before{
-    content: "\2665";
-    font-size: 100px;
-    margin:0px;
-}
-
-.diamond::after{
-    content: "\2666";
-    font-size: 100px
-}
-
-.diamond::before{
-    content: "\2666";
-    font-size: 100px;
-    margin:0px;
-}
-
-.shamrock::after{
+/* CLUBS */ 
+.clubs::before {
     content: "\2663";
-    font-size: 100px
+    color: black;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
 }
 
-.shamrock::before{
+.clubs::after {
     content: "\2663";
-    font-size: 100px
+    color: black;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
 }
 
-.spade::after{
+/* DIAMS */
+.diamantes::before {
+    content: "\2666";
+    color: red;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.diamantes::after {
+    content: "\2666";
+    color: red;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+/* HEARTS */
+.hearts::before {
+    content: "\2665";
+    color: red;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.hearts::after {
+    content: "\2665";
+    color: red;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+/* SPADES */ 
+.spades::before {
     content: "\2660";
-    font-size: 100px
+    color: black;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
 }
 
-.spade::before{
+.spades::after {
     content: "\2660";
-    font-size: 100px
+    color: black;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
 }
-
-.number{
-    background:;
-    margin-top: 0px;
-    width: 100px;
-    height: 275px;
-    margin-left: 100px;
-    font-size: 200px;
-}
-
