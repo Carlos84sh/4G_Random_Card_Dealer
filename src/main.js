@@ -3,7 +3,7 @@ require('./style.css');
 window.onload = function() {
     
     let CardType = () => {
-        let cardTypeList = ["clubs", "diamantes", "hearts", "spades"];
+        let cardTypeList = ["diamantes", "corazones", "picas","trevol"];
         let randomType = Math.floor(Math.random() * cardTypeList.length);
         
         return cardTypeList[randomType];

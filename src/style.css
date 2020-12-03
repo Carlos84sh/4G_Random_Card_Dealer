@@ -28,28 +28,9 @@ body {
     border: 2px solid black;
     margin: 0 auto;
 }
-/* CLUBS */ 
-.clubs::before {
-    content: "\2663";
-    color: black;
-    font-size: 75px;
-    position: absolute;
-    top: 0px;
-    left: 20px;
-}
 
-.clubs::after {
-    content: "\2663";
-    color: black;
-    font-size: 75px;
-    display: inline-block;
-    transform: rotate(180deg);
-    position: absolute;
-    bottom: 0px;
-    right: 20px;
-}
 
-/* DIAMS */
+/* diamantes */
 .diamantes::before {
     content: "\2666";
     color: red;
@@ -70,8 +51,8 @@ body {
     right: 20px;
 }
 
-/* HEARTS */
-.hearts::before {
+/* corazones */
+.corazones::before {
     content: "\2665";
     color: red;
     font-size: 75px;
@@ -80,7 +61,7 @@ body {
     left: 20px;
 }
 
-.hearts::after {
+.corazones::after {
     content: "\2665";
     color: red;
     font-size: 75px;
@@ -91,8 +72,8 @@ body {
     right: 20px;
 }
 
-/* SPADES */ 
-.spades::before {
+/* Picas */ 
+.picas::before {
     content: "\2660";
     color: black;
     font-size: 75px;
@@ -101,8 +82,28 @@ body {
     left: 20px;
 }
 
-.spades::after {
+.picas::after {
     content: "\2660";
+    color: black;
+    font-size: 75px;
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+/* trevol */ 
+.trevol::before {
+    content: "\2663";
+    color: black;
+    font-size: 75px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.trevol::after {
+    content: "\2663";
     color: black;
     font-size: 75px;
     display: inline-block;
